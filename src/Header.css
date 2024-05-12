@@ -1,0 +1,19 @@
+/* Estilos para os botões no menu */
+.menu .btn {
+  padding: 8px 16px;
+  background-color: #E83E8C;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave para a cor de fundo */
+}
+
+.menu .btn:hover {
+  background-color: #c3316c; /* Altera a cor de fundo ao passar o mouse */
+}
+
+/* Estilos específicos para o botão de entrar */
+.menu .entrar-btn {
+  margin-left: 10px; /* Adiciona um espaçamento à esquerda para separar do link de acessar conta */
+}
